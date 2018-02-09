@@ -1,0 +1,90 @@
+input[type="checkbox"] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  margin-top: 4px !important;
+  width: 40px;
+  height: 16px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  background: #ebebeb;
+  overflow: hidden;
+  vertical-align: middle;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+}
+
+input[type="checkbox"]:after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 14px;
+  height: 14px;
+  background: white;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  -webkit-transition: left 0.1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: left 0.1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+input[type="checkbox"]:checked {
+  background: #a6c7ff;
+  border-color: #8daee5;
+}
+
+input[type="checkbox"]:checked:after {
+  left: 23px;
+  border-color: #8daee5;
+}
+
+input[type="checkbox"]:hover:not(:checked):not(:disabled):after, input[type="checkbox"]:focus:not(:checked):not(:disabled):after {
+  left: 0;
+}
+
+input[type="checkbox"]:hover:checked:not(:disabled):after, input[type="checkbox"]:focus:checked:not(:disabled):after {
+  left: 22px;
+}
+
+input[type="checkbox"]:disabled {
+  opacity: 0.5;
+}
+
+.widefat.cosr-widefat {
+  margin: 1em 0 2em;
+}
+
+.widefat.cosr-widefat thead tr th {
+  padding: 14px 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.widefat.cosr-widefat tbody th {
+  padding: 12px 10px;
+  width: 100%;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.5);
+}
+
+.widefat.cosr-widefat tbody th:last-child {
+  border-bottom: none;
+}
+
+.widefat.cosr-widefat tbody th input {
+  margin: 4px 0 2px;
+  padding: 4px 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+p.description {
+  color: #a7a7a7;
+}
+
+#combined-search-settings {
+  margin: 2em 0 1em;
+}
