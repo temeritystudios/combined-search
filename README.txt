@@ -2,13 +2,13 @@
 Contributors: temeritystudios
 Tags: search, search highlight, tag search, category search, category exclusion, comment search, page search, admin, seo, post filter, research
 Requires at least: 4.9
-Tested up to: 4.9.2
+Tested up to: 4.9.4
 Requires PHP: 5.2.4
 Stable tag:  1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+Forked from the popular WordPress [Search Everything](https://wordpress.org/plugins/search-everything/) plugin, Combined Search allows you to search all available content types on your web site.
 
 == Description ==
 
